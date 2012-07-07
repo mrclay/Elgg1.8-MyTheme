@@ -7,8 +7,18 @@ Since Elgg does not ship with one, you're free to use this one.
 
 ## Installation
 
-1. Place this folder in `Elgg/mod/` so you have `Elgg/mod/MyTheme/`.
-2. Activate this plugin and keep it at the bottom of the plugin list.
+### Via git
+
+1. `$ cd /path/to/Elgg/mod`
+2. `$ git clone https://github.com/mrclay/Elgg1.8-MyTheme.git MyTheme`
+3. `$ rm -rf MyTheme/.git` (optional step)
+4. Activate the plugin and keep it at the bottom of the plugin list.
+
+### Via .zip
+
+1. Extract the zip
+2. Move the directory so that this file is at: `/path/to/Elgg/mod/MyTheme/README.md`
+3. Activate the plugin and keep it at the bottom of the plugin list.
 
 ## Where to put things
 
