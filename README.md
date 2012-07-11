@@ -4,7 +4,7 @@ This is an empty Elgg theme plugin in which you can put CSS/JS/HTML customizatio
 
 ### Why do I need this?
 
-Are you a new Elgg user eager to start customizing your site's look? You may be tempted (or even told) to jump in and modify core files; [Don't Do This](http://community.elgg.org/pages/view/880143/dont-modify-core)! Instead, install this plugin and make your modifications in it.
+Are you a new Elgg user eager to start customizing your site's look? You may be tempted (or even told) to jump in and modify core files; [Don't Do This](http://docs.elgg.org/wiki/Dont_Modify_Core)! Instead, install this plugin and make your modifications in it.
 
 ## Installation
 
