@@ -1,24 +1,27 @@
-
 # MyTheme
 
-You're a new Elgg user ready to customize your site. You may have heard that your customizations should be put in a theme plugin just for your site.
+This is an empty Elgg theme plugin in which you can put CSS/JS/HTML customizations for your site.
 
-Since Elgg does not ship with one, you're free to use this one.
+### Why do I need this?
+
+Are you a new Elgg user eager to start customizing your site's look? You may be tempted (or even told) to jump in and modify core files; [Don't Do This](http://community.elgg.org/pages/view/880143/dont-modify-core)! Instead, install this plugin and make your modifications in it.
 
 ## Installation
 
-### Via git
+### Without git
+
+1. [Download a copy](https://github.com/mrclay/Elgg1.8-MyTheme/downloads) of this repository in your format of choice.
+2. Extract the archive
+3. Rename the folder from `Elgg1.8-MyTheme` to `MyTheme`
+4. Move the `MyTheme` directory into `/path/to/Elgg/mod`, so that this file is at: `/path/to/Elgg/mod/MyTheme/README.md`
+5. In Elgg's admin panel plugins page, activate "My Theme". Make sure it stays at the bottom of the plugin list after activating new plugins.
+
+### With git
 
 1. `$ cd /path/to/Elgg/mod`
 2. `$ git clone https://github.com/mrclay/Elgg1.8-MyTheme.git MyTheme`
 3. `$ rm -rf MyTheme/.git` (optional step)
-4. Activate the plugin and keep it at the bottom of the plugin list.
-
-### Via .zip
-
-1. Extract the zip
-2. Move the directory so that this file is at: `/path/to/Elgg/mod/MyTheme/README.md`
-3. Activate the plugin and keep it at the bottom of the plugin list.
+4. In Elgg's admin panel plugins page, activate "My Theme". Make sure it stays at the bottom of the plugin list after activating new plugins.
 
 ## Where to put things
 
